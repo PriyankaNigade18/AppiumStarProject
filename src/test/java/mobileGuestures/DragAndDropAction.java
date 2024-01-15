@@ -28,6 +28,7 @@ public class DragAndDropAction {
 		//first circle
 		WebElement ele=driver.findElement(AppiumBy.id("io.appium.android.apis:id/drag_dot_1"));
 		
+		System.out.println("Element is dragging..........");
 		//drag and drop 
 		((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
 			    "elementId", ((RemoteWebElement) ele).getId(),
@@ -37,9 +38,11 @@ public class DragAndDropAction {
 		
 		
 		String resText=driver.findElement(AppiumBy.id("io.appium.android.apis:id/drag_result_text")).getText();
-		System.out.println("Is Element Dropped?: "+resText);
 		
 		
+		System.out.println("Element is dropped!");
+		
+		System.out.println("Is Element Dropped? status is: "+resText);
 		
 		
 		

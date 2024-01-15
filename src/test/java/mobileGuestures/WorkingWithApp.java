@@ -13,8 +13,7 @@ import io.appium.java_client.android.AndroidDriver;
 public class WorkingWithApp {
 
 	public static void main(String[] args) throws MalformedURLException
-	{
-		
+	{ 
 		AppiumDriver driver=CreateSession.initializeDriver();
 		
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
