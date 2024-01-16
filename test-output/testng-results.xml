@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-16T14:02:11 IST" name="Default suite" finished-at="2024-01-16T14:02:25 IST" duration-ms="13880">
+    <groups>
+    </groups>
+    <test started-at="2024-01-16T14:02:11 IST" name="Default test" finished-at="2024-01-16T14:02:25 IST" duration-ms="13880">
+      <class name="newScenarios.TestForToogleSetup">
+        <test-method signature="networkconfig()[pri:0, instance:newScenarios.TestForToogleSetup@72cde7cc]" started-at="2024-01-16T14:02:11 IST" name="networkconfig" finished-at="2024-01-16T14:02:25 IST" duration-ms="13842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- networkconfig -->
+      </class> <!-- newScenarios.TestForToogleSetup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
