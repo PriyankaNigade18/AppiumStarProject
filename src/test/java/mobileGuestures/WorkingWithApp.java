@@ -2,8 +2,10 @@ package mobileGuestures;
 
 import java.net.MalformedURLException;
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ScreenOrientation;
 
 import driverSession.CreateSession;
 import io.appium.java_client.AppiumBy;
@@ -46,10 +48,15 @@ public class WorkingWithApp {
 		System.out.println("Current status is: "+((AndroidDriver)driver).queryAppState("io.appium.android.apis"));
 		System.out.println("application install!");
 
-
 		
+		//to rotate device
+		((AndroidDriver)driver).rotate(ScreenOrientation.PORTRAIT);
 
-
+//		// Java
+//		List<List<Object>> pdata=((AndroidDriver)driver).getPerformanceData("io.appium.android.apis", "cpuinfo", 5);
+//		//List<Object> test=((Object)driver).startPerformanceRecording("io.appium.android.apis");
+//
+//		System.out.println(pdata);
 
 	}
 
